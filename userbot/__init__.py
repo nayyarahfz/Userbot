@@ -50,11 +50,11 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_KEY = os.environ.get("1403537", None)
+API_HASH = os.environ.get("98a57efa61bf92a7fd86c964b8e37d29", None)
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("1BVtsOKABu5T8Kt-z9nYJeY3SodalwK9nbNfwWG2e_iR_JEAlXvJmolp_vnDx-bg7CkYH1zvTJck8Cl9YgkOlMTi9RClLsoMcPJQCMvt5fbF_EymmDJjtQ3EtUXeC1y7Yq5OPgPC2OG4iotRq9-nzrkG7dZhDkJLNu100ejsMXrfdFe7q6LLc0NY8SWg6kk33Lk8ED8zAPd2yIMUHsgZoPiC6KgNH5NhaW9_E5-23K8blneeNUoGfiwgqA7riExuq2SXy_yjf93jtQHa6AiNEJSq8A1w6i3MGn63HfhMDjUsctBGyU1uB4YTtGVBvpmg5j1jx4Et7HzAq4Ug0CnP2TX4opy2s7cY=", None)
 
 # Logging channel/group ID configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
